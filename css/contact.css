@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+p {
+    line-height: 1.25;
+    font-weight: 600;
+}
+
+.main-container {
+    margin: 0 auto;
+    width: 800px;
+}
+
+header {
+    width: 100%;
+    margin: 30px 0;
+}
+
+.nav-container {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    width: 100%;
+    margin: 30px 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover {
+    transform: scale(1.2);
+}
+
+nav a:last-child {
+    margin-right: 50px;
+}
+
+.header-img-container {
+    width: 100%;
+}
+
+.header-img {
+    width: 100%;
+}
+
+.contact-form-container {
+    background: #f2f2f2;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    border-radius: 5px;
+    padding: 40px;
+    margin: 25px 0;
+}
+
+h1 {
+    font-size: 3.5rem;
+    text-align: center;
+}
+
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+.input-button {
+    display: flex;
+    flex-direction: row;
+    align-content: flex-end;
+}
+
+input[type=submit] {
+    background-color: white;
+    color: black;
+    padding: 12px 20px;
+    border: 1px solid black;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: white;
+    color: black;
+    transform: scale(1.25);
+}
+
+footer {
+    width: 100%;
+    background: black;
+}
+
+footer nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+}
+
+footer nav a {
+    color: white;
+    text-decoration: none;
+}
