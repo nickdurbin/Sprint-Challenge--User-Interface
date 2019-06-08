@@ -45,8 +45,12 @@ nav a {
     color: black;
 }
 
+nav a:hover {
+    transform: scale(1.2);
+}
+
 nav a:last-child {
-    margin-right: 30px;
+    margin-right: 50px;
 }
 
 .header-img-container {
